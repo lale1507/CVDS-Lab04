@@ -7,7 +7,7 @@ import hangman.model.*;
 public class GameScoreTest{
 
     /*
-    * Valores inicialesde todos los tipos de Score
+    * Valores iniciales de todos los tipos de Score
     */
     @Test
     public void OriginalScoreTest(){
