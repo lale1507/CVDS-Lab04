@@ -132,7 +132,7 @@ Incorpore el Contenedor Liviano Guice dentro del proyecto:
   referencia](https://github.com/PDSW-ECI/LightweighContainers_DepenendecyInjectionIntro-WordProcessor).
   
   
-###DESARROLLO DEL LABORATORIO  
+### DESARROLLO DEL LABORATORIO  
 
 A continuación se encuentran las imágenes de compilación, de las pruebas y de ejecución
 
