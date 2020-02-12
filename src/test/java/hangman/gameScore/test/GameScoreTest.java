@@ -41,13 +41,13 @@ public class GameScoreTest{
     *incorrectCount < 0 (-1,0,1)
     *los casos de 0 se encuentran como los valores iniciales
     */
-    /*
+    
     @Test
     public void  OriginalScoreTestLI1(){
         OriginalScore puntaje = new OriginalScore();
-        int valorCorrecto = puntaje.calculateScore(-1,2);
+        int valorCorrecto = puntaje.calculateScore(-1,4);
         Assert.assertEquals(0, valorCorrecto);
-    }*/
+    }
     
     /*
     @Test
