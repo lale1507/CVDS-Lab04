@@ -1,4 +1,7 @@
+
 ### Escuela Colombiana de Ingeniería
+
+## Paola A. Cuellar - Laura A. Bernal  
 
 ### Procesos de Desarrollo de Software
 
@@ -127,3 +130,14 @@ Incorpore el Contenedor Liviano Guice dentro del proyecto:
 	* etc...
 * Para lo anterior, [puede basarse en el ejemplo dado como
   referencia](https://github.com/PDSW-ECI/LightweighContainers_DepenendecyInjectionIntro-WordProcessor).
+  
+  
+###DESARROLLO DEL LABORATORIO  
+
+A continuación se encuentran las imágenes de compilación, de las pruebas y de ejecución
+
+![](compila.PNG)
+
+![](test.PNG)
+
+![](ejecuta.PNG)
