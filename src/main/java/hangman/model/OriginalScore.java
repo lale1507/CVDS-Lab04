@@ -13,13 +13,18 @@ public class OriginalScore implements GameScore{
      */
     public int calculateScore(int correctCount, int incorrectCount){
         puntaje = 100;
-        System.out.println("Valor del puntaje: "+ puntaje);
+        //System.out.println("Valor del puntaje: "+ puntaje);
         puntaje += (correctCount*0); //No se bonifican las letras correctas
-        puntaje -= (incorrectCount*10); // Se penaliza por cada letra incorrecta
+
+        if(incorrectCount>=0 && incorrectCount<7){
+            puntaje -= (incorrectCount*10); // Se penaliza por cada letra incorrecta
+        }
         if (puntaje<0 || correctCount<0){
             puntaje = 0;
         }
-        
+        if(incorrectCount > 6){
+            puntaje = 40;
+        }
         return puntaje;
     }
 

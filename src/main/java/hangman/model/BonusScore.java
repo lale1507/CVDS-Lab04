@@ -12,10 +12,10 @@ public class BonusScore implements GameScore{
      */
     public int calculateScore(int correctCount, int incorrectCount){
         puntaje = 0;
-        System.out.println("Valor del puntaje: "+ puntaje);
+        //System.out.println("Valor del puntaje: "+ puntaje);
         puntaje += (correctCount*10); // bonifica las letras correctas
-        puntaje -= (incorrectCount*5); // penaliza las letras correctas
-        if (puntaje<0 || correctCount<0){
+        puntaje -= (incorrectCount*5); // penaliza las letras incorrectas
+        if (puntaje<0 || correctCount<0 || incorrectCount<0){
             puntaje = 0;
         }
         return puntaje;
